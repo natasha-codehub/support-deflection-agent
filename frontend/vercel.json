@@ -2,15 +2,15 @@
   "rewrites": [
     {
       "source": "/chat",
-      "destination": "https://your-backend.onrender.com/chat"
+      "destination": "https://support-deflection-agent.onrender.com/chat"
     },
     {
       "source": "/health",
-      "destination": "https://your-backend.onrender.com/health"
+      "destination": "https://support-deflection-agent.onrender.com/health"
     },
     {
       "source": "/analytics",
-      "destination": "https://your-backend.onrender.com/analytics"
+      "destination": "https://support-deflection-agent.onrender.com/analytics"
     }
   ]
 }
