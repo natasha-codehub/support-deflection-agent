@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: support-deflection-agent-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: CONFIDENCE_HIGH
+        value: "0.80"
+      - key: CONFIDENCE_MEDIUM
+        value: "0.65"
+      - key: ORG_NAME
+        value: "AcmeCo Industrial"
+      - key: ORG_DOMAIN
+        value: "B2B industrial gas distribution"
+      - key: FRONTEND_URL
+        sync: false

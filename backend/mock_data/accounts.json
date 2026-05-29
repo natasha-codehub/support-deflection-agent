@@ -1,0 +1,67 @@
+[
+  {
+    "account_id": "ACC-001",
+    "account_name": "Midwest Industrial Co.",
+    "locations": ["Oak Park, IL", "Chicago, IL", "Evanston, IL", "Naperville, IL"],
+    "tax_exempt": true,
+    "tax_cert_expiry": "2027-03-31",
+    "account_manager": "Sarah Mitchell",
+    "account_manager_email": "smitchell@acmeco.com",
+    "payment_terms": "Net 30",
+    "billing_email": "ap@midwestindustrial.com",
+    "credit_limit": 50000,
+    "account_since": "2019-04-15"
+  },
+  {
+    "account_id": "ACC-002",
+    "account_name": "Great Lakes Fabrication",
+    "locations": ["Detroit, MI", "Flint, MI"],
+    "tax_exempt": false,
+    "tax_cert_expiry": null,
+    "account_manager": "James Kowalski",
+    "account_manager_email": "jkowalski@acmeco.com",
+    "payment_terms": "Net 45",
+    "billing_email": "billing@greatlakesfab.com",
+    "credit_limit": 75000,
+    "account_since": "2017-11-02"
+  },
+  {
+    "account_id": "ACC-003",
+    "account_name": "Southeast Welding Supply",
+    "locations": ["Atlanta, GA", "Birmingham, AL", "Nashville, TN", "Charlotte, NC"],
+    "tax_exempt": true,
+    "tax_cert_expiry": "2026-08-15",
+    "account_manager": "Priya Nair",
+    "account_manager_email": "pnair@acmeco.com",
+    "payment_terms": "Net 30",
+    "billing_email": "accounts@sewelding.com",
+    "credit_limit": 60000,
+    "account_since": "2021-02-20"
+  },
+  {
+    "account_id": "ACC-004",
+    "account_name": "Pacific Rim Manufacturing",
+    "locations": ["Los Angeles, CA", "San Diego, CA", "Fresno, CA", "Sacramento, CA"],
+    "tax_exempt": false,
+    "tax_cert_expiry": null,
+    "account_manager": "David Huang",
+    "account_manager_email": "dhuang@acmeco.com",
+    "payment_terms": "Net 60",
+    "billing_email": "finance@pacificrimman.com",
+    "credit_limit": 120000,
+    "account_since": "2015-06-10"
+  },
+  {
+    "account_id": "ACC-005",
+    "account_name": "Texas Energy Partners",
+    "locations": ["Houston, TX", "Dallas, TX", "Austin, TX", "San Antonio, TX"],
+    "tax_exempt": true,
+    "tax_cert_expiry": "2027-12-31",
+    "account_manager": "Maria Gonzalez",
+    "account_manager_email": "mgonzalez@acmeco.com",
+    "payment_terms": "Net 30",
+    "billing_email": "ap@texasenergypartners.com",
+    "credit_limit": 95000,
+    "account_since": "2018-09-05"
+  }
+]
